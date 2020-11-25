@@ -8,7 +8,7 @@ resultat.innerHTML = (parseInt(span5.innerText) < parseInt(span12.innerText)) ? 
     (parseInt(span5.innerText) - parseInt(span12.innerText)).toString();
 
 if (parseInt(resultat.innerText) - 10 < 0) {
-    paragraphe.innerHTML = 'le résultat est inférieur à 0';
+    paragraphe.innerHTML = paragraphe.innerText + 'le résultat est inférieur à 0';
 }
 
 container.style.backgroundColor = 'green';
