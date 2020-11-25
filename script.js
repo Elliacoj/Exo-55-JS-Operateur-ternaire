@@ -11,4 +11,4 @@ if (parseInt(resultat.innerText) - 10 < 0) {
     paragraphe.innerHTML = 'le résultat est inférieur à 0';
 }
 
-container.style.backgroundColor = 'green'
+container.style.backgroundColor = 'green';
